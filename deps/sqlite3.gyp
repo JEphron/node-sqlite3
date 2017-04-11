@@ -83,7 +83,9 @@
           'SQLITE_ENABLE_FTS4',
           'SQLITE_ENABLE_FTS5',
           'SQLITE_ENABLE_JSON1',
-          'SQLITE_ENABLE_RTREE'
+          'SQLITE_ENABLE_RTREE',
+          'SQLITE_MAX_VARIABLE_NUMBER=4000',
+          'SQLITE_MAX_COLUMN=4000'
         ],
       },
       'cflags_cc': [
@@ -97,7 +99,9 @@
         'SQLITE_ENABLE_FTS4',
         'SQLITE_ENABLE_FTS5',
         'SQLITE_ENABLE_JSON1',
-        'SQLITE_ENABLE_RTREE'
+        'SQLITE_ENABLE_RTREE',
+        'SQLITE_MAX_VARIABLE_NUMBER=4000',
+        'SQLITE_MAX_COLUMN=4000'
       ],
       'export_dependent_settings': [
         'action_before_build',
